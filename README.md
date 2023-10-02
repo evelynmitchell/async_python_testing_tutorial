@@ -12,22 +12,36 @@ This allows you to wait for results from something that may be running elsewhere
 
 #### Synchonous code
 
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
 
+```mermaid
+---
+Synchronous
+---
 graph LR
 A[Start] --> B{Condition}
 B -- True --> C[Action]
 C --> D[Next Action]
 D --> B
 B -- False --> E[End]
+```
 
 #### Asynchronous code
 
+```mermaid
 graph TB
 A[Start] --> B{Condition}
 B -- True --> C[Action]
 C --> D[Next Action]
 D -.-> B
 B -- False --> E[End]
+```
 
 
 ### When do you need it?
