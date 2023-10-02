@@ -28,7 +28,7 @@ B -- False --> E[End]
 #### Asynchronous code
 
 ```mermaid
-graph TB
+graph LR
 A[Start] --> B{Condition}
 B -- True --> C[Action]
 C --> D[Next Action]
