@@ -12,13 +12,6 @@ This allows you to wait for results from something that may be running elsewhere
 
 #### Synchonous code
 
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
 
 ```mermaid
 ---
