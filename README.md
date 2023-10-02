@@ -47,9 +47,19 @@ Modern code is often asynchronous, because it alloww for scaling beyond the reso
 
 Machine learning tools often use async code, because they need to wait for the results of long running calculations before they can continue, or because they are using agents to run tasks in parallel. AutoGPT and Langchain are two examples of machine learning tools that use async code.
 
-
-
 ### How do you use it?
+
+```python
+import asyncio
+
+async def main():
+    print('Hello ...')
+    await asyncio.sleep(1)
+    print('... World!')
+
+# Python 3.7+
+asyncio.run(main())
+```
 
 
 async_python_testing_tutorial
