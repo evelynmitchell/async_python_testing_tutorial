@@ -1,4 +1,4 @@
-# Asyn Python Testing Tutorial
+# Async Python Testing Tutorial
 
 I've been working on some async code in Python recently, and I noticed that testing it is tricker than I suspected, so I thought I'd share my notes.
 
