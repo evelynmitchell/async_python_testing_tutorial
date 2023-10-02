@@ -60,6 +60,12 @@ async def main():
 # Python 3.7+
 asyncio.run(main())
 ```
+```
+Examples$ python3 hello_async.py 
+Hello ...
+... World!
+```
 
+You can't read the delay, but if you run the exaple, you'll see that the second print statement  '...World' is delayed by one second.
 
 async_python_testing_tutorial
