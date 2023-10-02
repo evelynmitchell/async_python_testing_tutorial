@@ -36,6 +36,8 @@ D -.-> B
 B -- False --> E[End]
 ```
 
+The dotted line in the asynchronous code indicates that the code is not waiting for the result of the action before moving on to the next action.
+
 
 ### When do you need it?
 
