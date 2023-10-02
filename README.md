@@ -41,6 +41,14 @@ The dotted line in the asynchronous code indicates that the code is not waiting 
 
 ### When do you need it?
 
+You need async code when you have code that needs to wait for something to happen before it can continue.  For example, if you have a function that needs to wait for a response from an API call before it can continue, you need async code.  If you have a function that needs to wait for the result of a long running calculation before it can continue, you need async code.
+
+Modern code is often asynchronous, because it alloww for scaling beyond the resourceds of a single system. For example, if you have a web server that needs to handle a large number of requests, you can use async code to handle each request in parallel, rather than waiting for each request to finish before starting the next one.
+
+Machine learning tools often use async code, because they need to wait for the results of long running calculations before they can continue, or because they are using agents to run tasks in parallel. AutoGPT and Langchain are two examples of machine learning tools that use async code.
+
+
+
 ### How do you use it?
 
 
