@@ -68,4 +68,21 @@ Hello ...
 
 You can't read the delay, but if you run the exaple, you'll see that the second print statement  '...World' is delayed by one second.
 
+## Testing async code
+
+First will create a little hello world function that is not async, and test it.
+
+```python
+def hello_world():
+    return 'Hello World!'
+
+if __name__ == '__main__':
+    print(hello_world())
+```
+
+```
+```
+
+```python
+
 async_python_testing_tutorial
